@@ -1,11 +1,11 @@
+#! /usr/bin/python
 import os
 import pickle
 
+import cv2
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
-
-import cv2
 from six.moves import urllib
 
 

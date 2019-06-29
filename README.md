@@ -3,7 +3,19 @@ AlexNet implementation with TensorFlow APIs (Kaggle)
 
 # Pre-requisites
 
+Application requires following packages:
 
+1. TensorFlow (CPU or GPU version) - Training/Inferencing Model
+2. NumPy - Image Manipulations and normalizations
+3. OpenCV - Image Processing
+4. Pandas - load csv files as panda data frames
+5. Matplotlib - For Plotting images
+
+One can install all the dependencies by
+
+```
+~$ sudo -H pip install -r requirements.txt
+```
 
 # Usage
 

@@ -1,6 +1,10 @@
 # alexnet-tensorflow-kaggle
 AlexNet implementation with TensorFlow APIs (Kaggle)
 
+# Pre-requisites
+
+
+
 # Usage
 
 ```alexnet.py``` is an CLI (Command Line Interface) application based on ```Python```.
@@ -54,7 +58,7 @@ To produce ```train.p``` and ```test.p``` from dataset ```*.csv```, one can run 
 ~$ python dataset.py --csv_file <path/to/dataset.csv>
 ```
 
-For Kaggle requirement, ```openimage_5k.csv``` can be used as dataset from Open Image Dataset. This contains 5000 images.
+For Kaggle requirement, ```openimage_5k.csv``` can be used as dataset from Open Image Dataset. This contains 5000 images urls. Here ```dataset.py``` reads each url and downloads images for train, valid and test dataset. This file can easily be generated from Google Big Data Cloud server by forming appropriate sql query to requested dataset.
 
 ## Training
 

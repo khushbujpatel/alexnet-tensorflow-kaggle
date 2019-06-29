@@ -10,6 +10,7 @@ Application requires following packages:
 3. OpenCV - Image Processing
 4. Pandas - load csv files as panda data frames
 5. Matplotlib - For Plotting images
+6. sklearn - Train Test data spliting
 
 One can install all the dependencies by
 
